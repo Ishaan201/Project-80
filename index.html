@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Project 80</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<script src="main.js"></script>
+</head>
+
+<body>
+	<center>
+		<h3 style="margin-top: 20px; margin-bottom: 20px; ">
+			Guest List
+		</h3>
+
+		<div id="rows">
+
+			<input type="text" placeholder="Enter name" id="name1">
+			<button type="button" onclick="submit()" id="submit_button">Submit</button>
+			<span>&nbsp;&nbsp;&nbsp;&nbsp;</span>
+
+			<hr>
+
+			<div id="display_name">
+			</div>
+			<hr>
+			<div id="Show1">
+				<h3 id="hd1">Guest List</h3>
+				<button onclick="show()" id="show">Show</button>
+				<p id="p1"></p>
+			</div>
+
+			<hr>
+			<button onclick="sorting()" id="sort_button">
+				Sorted List
+			</button>
+
+
+			<div id="sorted"></div>
+		</div>
+		<hr>
+		<input type="text" placeholder="Search name" id="s1">&nbsp;
+		<button type="button" onclick="searching">Search</button>
+		<p id="p2"></p>
+
+	</center>
+
+</body>
+
+</html>
